@@ -1,0 +1,63 @@
+body{
+    background-color: darkcyan;
+}
+
+
+
+.image{
+    display: flexbox;
+    height: 201;
+    width: 358mm;
+}
+
+#img{
+    height: 15%;
+    width: 27%;
+    align-items: center;
+    margin: 11px;
+    border-radius: 13px;
+    shape-outside: 5px;
+    
+
+}
+
+
+
+.card{
+    height: 360px;
+    width: 390px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    margin-top: 15%;
+    margin-left: 32%;
+    box-shadow: 5px;
+}
+
+
+
+.content{
+    margin: 12px;
+}
+
+.name{
+    font-size: large;
+    font-weight: bold;
+}
+
+.price{
+    color: cornflowerblue;
+}
+
+#del-price{
+    margin-left: 10px;
+    color: darkgray;
+}
+
+.discount{
+    margin-left: 10px;
+    background-color:aquamarine;
+    border: 0px;
+    padding: 2px;
+    border-radius: 4px;
+
+}
