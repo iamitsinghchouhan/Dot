@@ -1,0 +1,12 @@
+.divv{
+    background-color: aqua;
+    transform:translateX(100px , 200px);
+    transform: rotate(-45deg);
+    transform: scale(1,4);
+    margin-top: 50px;
+    margin-left: 100px; 
+
+    transform: skew(45deg);
+    transform: matrix();
+
+}
