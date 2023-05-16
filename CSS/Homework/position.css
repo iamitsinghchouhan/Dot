@@ -1,0 +1,28 @@
+div{
+    position: relative;
+   
+    max-width:20px;
+    
+}
+
+.divB{
+    top: 710px;
+}
+
+.divC{
+    top: 680px;
+    left:1400px
+}
+
+.divD{
+    left: 1400px;
+    bottom:60px;
+}
+
+
+.divE{
+     top: 310px;
+     left:690px
+}
+
+
