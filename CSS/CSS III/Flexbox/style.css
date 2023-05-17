@@ -1,0 +1,149 @@
+.container{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+}
+
+.box{
+    border:solid 1px brown;
+    background-color: coral;
+}
+
+.container-1{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-2{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    flex-direction:column;
+}
+
+.container-3{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.container-4{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-5{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.container-6{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.container-7{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-8{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-9{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-10{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-11{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-12{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    justify-content:center;
+}
+
+.container-13{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-14{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-15{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    align-items: center;
+}
+
+.container-16{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    align-items: stretch;
+}
+
+.container-17{
+    height: 200px;
+    width: 300px;
+    border: solid 1px green;
+    display: flex;
+    align-items: baseline;
+}
