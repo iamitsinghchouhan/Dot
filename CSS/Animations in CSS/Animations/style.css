@@ -1,0 +1,63 @@
+.container{
+
+    width: 100%;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.box{
+    width: 212px;
+    height: 212px;
+    background-color: aqua;
+    border: 2px solid black;
+
+    /* Animating the box with CSS animations */
+
+    animation-name: amit;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-direction: alternate;
+ 
+}
+
+/* NORMAL ANIMATION  */
+
+/* 
+@keyframes amit{
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+} */
+
+/* ALTERNATE ANIMATION*/
+
+@keyframes amit{
+
+    0%{
+        width: 212px;
+        background-color: aqua;
+    }
+
+    30%{
+        width: 35%;
+        background-color: chartreuse;
+    }
+
+    60%{
+        width: 65%;
+        background-color: darkgoldenrod;
+    }
+
+    100%{
+        width: 100%;
+        background-color: darkgreen;
+    }
+
+}
+
