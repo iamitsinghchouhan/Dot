@@ -1,0 +1,45 @@
+.container{
+    border: 1px solid black;
+    background-color: burlywood;
+    height: 700px;
+
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 100px 400px;
+
+    grid-gap: 10px;
+
+    grid-template-areas:
+    "hd hd "
+    "side main"
+    "ft ft";
+
+
+}
+
+.box{
+    
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+#box1{
+    
+    grid-area: hd;
+}
+
+#box2{
+    
+    grid-area: side;   
+}
+
+#box3{
+    
+    grid-area: main;   
+}
+
+#box4{
+    
+    grid-area: ft;
+}
+

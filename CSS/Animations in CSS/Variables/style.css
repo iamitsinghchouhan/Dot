@@ -1,0 +1,27 @@
+/* For declear a global variable in CSS we need to declear a variable in Root */
+
+:root{
+    --dark-red:#98182c;
+}
+
+.container{
+    border: solid 1px black;
+    background-color:var(--dark-red);
+    height: 300px;
+    width: 300px;
+
+    
+}
+
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    
+    /* Creating a variable */
+
+    --dark-red:#98182c;
+
+    /* For acesss the Variable */
+
+    color:var(var(--dark-red));
+}
