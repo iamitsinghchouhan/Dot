@@ -164,8 +164,149 @@ a{
 .user-image{
     padding: 2.5rem;
     filter: grayscale(1);
-    
+    transition: all 1s;
+    animation: scaleImage 5s linear infinite;
+
+
 }
+
+.user-image img{
+    z-index: -9;
+}
+
+@keyframes scaleImage{
+    0%{
+        filter: grayscale(0);
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+        filter: grayscale(1);
+        
+    }
+    100%{
+        transform: scale(1);
+        filter: grayscale(0);
+        box-shadow: 3px 3px 10px black;
+
+    }
+}
+
+.icon-dots{
+        z-index:9;
+        bottom: -1rem;
+        right: 0;
+        animation-name: dotsAnimation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes dotsAnimation{
+     0%{
+        transform: translateY(0px);
+     }
+     50%{
+        transform: translateY(-15px);
+     }
+     100%{
+        transform: translateY(0px);
+     }
+}
+
+.icon-cube{
+    z-index: 9;
+    top: -0.8em;
+    right: 1em;
+    animation-name:cubeAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes cubeAnimation{
+    0%{
+       transform: translateY(0px) rotateY(0deg);
+    }
+    50%{
+       transform: translateY(-15px) rotateY(180deg);
+    }
+    100%{
+       transform: translateY(0px) rotateY(0deg);
+    }
+}
+
+.icon-circle{
+    z-index: 9;
+    left: 0;
+    bottom: 0;
+    animation-name: circleAnimation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circleAnimation{
+    0%{
+       left: 0;
+       bottom: 0;
+    }
+    50%{
+       
+        left: 5%;
+        bottom: 10%;
+    }
+    100%{
+       
+        left: 0;
+        bottom: 0;
+    }
+}
+
+.icon-zigzag{
+    z-index: 9;
+    top: 1.5em;
+    left: -0.3em;
+    animation-name: zigzagAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zigzagAnimation{
+    0%{
+       left: 0;
+       top: 0;
+    }
+    50%{
+       
+        left: 5%;
+        top: 2%;
+    }
+    100%{
+       
+        left: 0;
+        top: 0;
+    }
+}
+
+.icon-plus{
+    z-index: 9;
+    top: -0.8rem;
+    left: 50%;
+    animation-name: plusAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes plusAnimation{
+   
+    50%{
+        left: 48%;
+        top: 3%;
+    }
+  
+}
+
 
 
 .fadded-text{
@@ -178,3 +319,4 @@ a{
     font-weight: bold;
     transition: all 3s;
 }
+
