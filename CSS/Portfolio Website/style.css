@@ -332,6 +332,8 @@ a{
   #projects{
     margin-top: 4rem;
     background-color: #e7e7e7; 
+    margin-left: -210px;
+    margin-right: -210px;
   }
   
   .projectTitle {
