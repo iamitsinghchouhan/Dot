@@ -154,7 +154,18 @@ a{
     display: none;
 }
 
+.hero-section-right{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
 
+.user-image{
+    padding: 2.5rem;
+    filter: grayscale(1);
+    
+}
 
 
 .fadded-text{
