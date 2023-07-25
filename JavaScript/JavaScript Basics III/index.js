@@ -93,7 +93,7 @@ let courses= [      //object array for perform searching
 console.log(courses);
 
 let course = courses.find(function(course){
-            return course.name ==='computer science';
+            return course.name ==='computer science';   // Callback Function
 });
 
 console.log(course);
@@ -126,3 +126,38 @@ console.log(arr2);
 
 arr1.splice(0,arr1.length);  // Method ---> 2 
 console.log(arr1);
+
+
+// Combining and slicing in Arrays
+let first = [1,2,3];
+let second = [4,5,6];
+
+let combined = first.concat(second);    //Concat Method 
+console .log(combined);
+
+let combined2 = [...first,...second]; // spread method
+
+
+// Slice an Array
+
+let sliced = combined.slice(2,4);
+console.log(sliced);
+
+// Iterating an Array
+
+let arr3 =[22,3,54,65,8,454,84];
+
+// For-of Loop
+for(let value of arr3){
+    console.log(value);
+}
+
+
+// For-each loop
+
+arr3.forEach(function(number){      //But for-each loop we need to use the callback function
+    console.log(number);
+})
+
+
+ 
