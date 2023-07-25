@@ -34,3 +34,95 @@ let message = 'this is my first message';
 let words = message.split(' ');
 
 console.log(words);
+
+// Template Literals
+
+let message2 = `this
+ is
+  my
+   first
+    message`;
+
+console.log(message2);
+
+// Placeholder
+
+let name1 = `Amit Singh ${message}`; // with the help ${} we place any variable or something
+
+console.log(name1);
+
+
+// Arrays
+
+let numbers = [1,2,3,4,5,6];
+console.log(numbers);
+
+numbers.push(9);
+console.log(numbers);
+
+numbers.unshift(8);
+console.log(numbers);
+
+numbers.splice(2,0,'a','b','c','d');
+console.log(numbers);
+
+// Searching in Arrays
+
+if(numbers.indexOf(4) != -1){
+    console.log("present")
+}
+else{
+    console.log("Absent")
+}                        //searching with if-else
+
+
+
+console.log(numbers.includes(8)); // 1. method
+
+console.log(numbers.indexOf(4,2)); // 2. method
+
+// Callback function for searching in object/refrence
+
+
+
+let courses= [      //object array for perform searching
+    {no:1,name:'computer science'},
+    {no:2,name:'mechanical '}
+];
+
+console.log(courses);
+
+let course = courses.find(function(course){
+            return course.name ==='computer science';
+});
+
+console.log(course);
+
+
+// Removing Element in Array 
+
+let arr = [1,2,3,4,5,6]
+console.log(arr);
+
+arr.pop();
+console.log(arr);
+
+arr.shift();
+console.log(arr);
+
+arr.splice(2,1);
+console.log(arr);
+
+
+// Enpyting an Array
+
+let arr1 = [0,12,3,4,545,87,515];
+let arr2 = arr1;
+
+arr1.length =0;     // Method ---> 1
+
+console.log(arr1);
+console.log(arr2);
+
+arr1.splice(0,arr1.length);  // Method ---> 2 
+console.log(arr1);
