@@ -160,4 +160,48 @@ arr3.forEach(function(number){      //But for-each loop we need to use the callb
 })
 
 
+// Sorting Array
+
+ let num = [245,54,8,5564,62,54,25,2];
+ num.sort();
+
+ console.log(num);
+
+ num.reverse();
+ console.log(num);
+
+//  Filtering Array
+
+let filter1 =[1,5,4,-5,-48,-54,4,5,2,-1,-9,10];
+
+let filtered = filter1.filter(function(value){
+    return value >= 0;
+});
+
+console.log(filtered);
+
+
+// Maping Array
+
+let map1 = [7,8,9,10];
+console.log(map1);
+
+let items = map1.map(function(value){
+    return 'student_no'+ value;
+});
+
+console.log(items)
  
+// Mapping with Object
+
+let fil2 = [1,2,-1,-6];
+
+let filtered1 = fil2.filter(value => value >= 0);
+
+let item = filtered1.map(function(num){
+    return {value : num};
+});
+
+console.log(item);
+
+// Chaining 
