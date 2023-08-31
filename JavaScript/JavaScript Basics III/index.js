@@ -204,4 +204,3 @@ let item = filtered1.map(function(num){
 
 console.log(item);
 
-// Chaining 
